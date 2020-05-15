@@ -6,7 +6,7 @@ Introduction video:
 
 test:
 
-![c1](/contents/c1.gif)
+![c1](/contents/c1.gif)   ![c1](/contents/c1.gif)   ![c1](/contents/c1.gif)
 
 
 Data, annotations and baseline models will be available soon
