@@ -6,7 +6,8 @@ PyTorch implementation of our arXiv paper [IPN Hand: A Video Dataset and Benchma
 
 ### Introduction video (supplementary material):
 [![Watch the video](https://img.youtube.com/vi/OH3n5rf2wV8/maxresdefault.jpg =24x48)(https://youtu.be/OH3n5rf2wV8)
-<img src="https://github.com/favicon.ico" href="https://youtu.be/OH3n5rf2wV8" >
+
+<img src="https://github.com/favicon.ico" href="https://youtu.be/OH3n5rf2wV8" width="480">
 
 
 ### Baseline models will be available soon
