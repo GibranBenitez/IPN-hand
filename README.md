@@ -28,3 +28,16 @@ Please install the following requirements.
 - TorchVision
 - Pillow
 - OpenCV
+
+## Citation
+
+If you find useful the IPN Hand dataset for your research, please cite the paper:
+
+```bibtex
+@article{bega2020IPNhand,
+  title={IPN Hand: A Video Dataset and Benchmark for Real-Time Continuous Hand Gesture Recognition},
+  author={Benitez-Garcia, Gibran and Olivares-Mercado, Jesus and Sanchez-Perez, Gabriel and Yanai, Keiji},
+  journal={arXiv preprint arXiv:2005.02134},
+  year={2020}
+}
+```
