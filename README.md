@@ -1,5 +1,4 @@
 # IPN Hand: A Video Dataset and Benchmark for Real-Time Continuous Hand Gesture Recognition
-
 PyTorch implementation, codes and pretrained models of the paper: 
 
 [__IPN Hand: A Video Dataset and Benchmark for Real-Time Continuous Hand Gesture Recognition__](https://arxiv.org/abs/2005.02134)
@@ -29,8 +28,14 @@ Please install the following requirements.
 - Pillow
 - OpenCV
 
-## Citation
+### Pretrained models
+* [ResNeXt-101 models isolated] 
+* [ResNeXt-101 models continuous] 
+* [ResNet-50 models continuous] 
+* [HarDNet model] 
+* [Optical Flow model] 
 
+## Citation
 If you find useful the IPN Hand dataset for your research, please cite the paper:
 
 ```bibtex
