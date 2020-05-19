@@ -43,8 +43,8 @@ If you find useful the IPN Hand dataset for your research, please cite the paper
 ```
 ## Acknowledgement
 This project is inspired by many previous works, including:
-* [Real-time hand gesture detection and classification using convolutional neural networks](https://arxiv.org/abs/1901.10323), Kopuklu et al., FG 2019 [[code](https://github.com/ahmetgunduz/Real-time-GesRec)]
-* [Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?](http://openaccess.thecvf.com/content_cvpr_2018/html/Hara_Can_Spatiotemporal_3D_CVPR_2018_paper.html), Hara et al., CVPR 2018 [[code](https://github.com/kenshohara/3D-ResNets-PyTorch)]
-* [Optical Flow Estimation Using A Spatial Pyramid Network](https://arxiv.org/abs/1611.00850), Ranjan and Black, CVPR 2017 [[code](https://github.com/sniklaus/pytorch-spynet) by Niklaus]
-* [HarDNet: A Low Memory Traffic Network](https://arxiv.org/abs/1909.00948), Chao et al., ICCV 2019 [[code](https://github.com/PingoLH/FCHarDNet)]
-* [Learning to estimate 3d hand pose from single rgb images](http://openaccess.thecvf.com/content_iccv_2017/html/Zimmermann_Learning_to_Estimate_ICCV_2017_paper.html), Zimmermann and Brox, ICCV 2017 [[dataset](https://lmb.informatik.uni-freiburg.de/resources/datasets/RenderedHandposeDataset.en.html)]
+* [Real-time hand gesture detection and classification using convolutional neural networks](https://arxiv.org/abs/1901.10323), Kopuklu et al, _FG 2019_ [[code](https://github.com/ahmetgunduz/Real-time-GesRec)]
+* [Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?](http://openaccess.thecvf.com/content_cvpr_2018/html/Hara_Can_Spatiotemporal_3D_CVPR_2018_paper.html), Hara et al, _CVPR 2018_ [[code](https://github.com/kenshohara/3D-ResNets-PyTorch)]
+* [Optical Flow Estimation Using A Spatial Pyramid Network](https://arxiv.org/abs/1611.00850), Ranjan and Black, _CVPR 2017_ [[code](https://github.com/sniklaus/pytorch-spynet) by Niklaus]
+* [HarDNet: A Low Memory Traffic Network](https://arxiv.org/abs/1909.00948), Chao et al, _ICCV 2019_ [[code](https://github.com/PingoLH/FCHarDNet)]
+* [Learning to estimate 3d hand pose from single rgb images](http://openaccess.thecvf.com/content_iccv_2017/html/Zimmermann_Learning_to_Estimate_ICCV_2017_paper.html), Zimmermann and Brox, _ICCV 2017_ [[dataset](https://lmb.informatik.uni-freiburg.de/resources/datasets/RenderedHandposeDataset.en.html)]
