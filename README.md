@@ -35,6 +35,18 @@ Please install the following requirements.
 * [HarDNet model] 
 * [Optical Flow model] 
 
+
+## Running the code
+* Isolated testing (offline_test.py) and training (main.py)
+```bash
+bash run_offline.sh
+```
+
+* Continuous testing
+```bash
+bash run_online.sh
+```
+
 ## Citation
 If you find useful the IPN Hand dataset for your research, please cite the paper:
 
