@@ -41,3 +41,7 @@ If you find useful the IPN Hand dataset for your research, please cite the paper
   year={2020}
 }
 ```
+## Acknowledgement
+This project is inspired by many previous works, including:
+* [Real-time hand gesture detection and classification using convolutional neural networks](https://arxiv.org/abs/1901.10323), Kopuklu et al. [[code](https://github.com/ahmetgunduz/Real-time-GesRec)]
+* [Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?"](https://openaccess.thecvf.com/content_cvpr_2018/html/Hara_Can_Spatiotemporal_3D_CVPR_2018_paper.html), Hara et al. [[code](https://github.com/kenshohara/3D-ResNets-PyTorch)]
