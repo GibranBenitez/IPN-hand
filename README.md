@@ -36,14 +36,23 @@ Please install the following requirements.
 
 
 ## Usage
-* Isolated testing (offline_test.py) and training (main.py)
-```bash
-bash run_offline.sh
+
+### Preparation
+* Download the dataset from [here](https://gibranbenitez.github.io/IPN_Hand/)
+* Clone this repository
+```console
+$ git clone https://github.com/GibranBenitez/IPN-hand
 ```
 
-* Continuous testing
+### Isolated testing
+* Change the path of the dataset from `./tests/run_offline_ipn_Clf.sh` and run
 ```bash
-bash run_online.sh
+$ bash run_offline_ipn_Clf.sh
+```
+### Continuous testing
+* Change the path of the dataset from `./run_online_ipnTest.sh` and run
+```bash
+$ bash run_online_ipnTest.sh
 ```
 
 ## Citation
