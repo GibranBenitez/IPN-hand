@@ -50,7 +50,7 @@ $ git clone https://github.com/GibranBenitez/IPN-hand
 $ bash run_offline_ipn_Clf.sh
 ```
 ### Continuous testing
-* Change the path of the dataset from `./run_online_ipnTest.sh` and run
+* Change the path of the dataset from `./tests/run_online_ipnTest.sh` and run
 ```bash
 $ bash run_online_ipnTest.sh
 ```
