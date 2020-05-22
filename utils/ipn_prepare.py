@@ -6,7 +6,7 @@ import sys
 from subprocess import call
 
 dataset_path = "/host/space0/gibran/dataset/HandGestures/IPN_dataset"
-def load_split_nvgesture(file_with_split = './IPNhand_TrainList.txt',list_split = list()):
+def load_split_nvgesture(file_with_split = './Annot_TestList.txt',list_split = list()):
     file_with_split = os.path.join(dataset_path,file_with_split)
     params_dictionary = dict()
     with open(file_with_split,'rb') as f:
@@ -82,9 +82,9 @@ if __name__ == "__main__":
 
     file_lists = dict()
     if subset == 'training':
-        file_list = "./IPNhand_TrainList.txt"
+        file_list = "./Annot_TrainList.txt"
     elif subset == 'validation':
-        file_list = "./IPNhand_TestList.txt"
+        file_list = "./Annot_TestList.txt"
     
 
     subset_list = list()
@@ -113,10 +113,6 @@ if __name__ == "__main__":
 # python utils/ipn_prepare.py validation vallistall_but_None.txt all_but_None
 # python utils/ipn_prepare.py validation vallistall.txt all
 # python utils/ipn_prepare.py validation vallistbinary.txt binary
-# python utils/ipn_prepare.py validation vallistgroup.txt group
-# python utils/ipn_prepare.py validation vallistgroup.txt gests_only
 # python utils/ipn_prepare.py training trainlistall_but_None.txt all_but_None
 # python utils/ipn_prepare.py training trainlistall.txt all
 # python utils/ipn_prepare.py training trainlistbinary.txt binary
-# python utils/ipn_prepare.py training trainlistgroup.txt group
-# python utils/ipn_prepare.py training trainlistgroup.txt gests_only

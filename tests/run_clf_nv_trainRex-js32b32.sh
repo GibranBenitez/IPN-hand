@@ -1,0 +1,25 @@
+#!/bin/bash 	#dl04
+python main.py \
+	--root_path /host/space0/gibran/\
+	--video_path dataset/Nvidia/nvgesture_arch \
+	--annotation_path scripts/Real-time-GesRec/annotation_nvGesture/nvall_but_None.json \
+	--result_path scripts/Real-time-GesRec/results \
+	--pretrain_path scripts/Real-time-GesRec/report/jester_resnext_101_RGB_32.pth \
+	--pretrain_dataset jester \
+	--dataset nv \
+	--sample_duration 32 \
+    --learning_rate 0.01 \
+    --model resnext \
+	--model_depth 101 \
+	--resnet_shortcut B \
+	--batch_size 32 \
+	--n_classes 25 \
+	--n_finetune_classes 25 \
+	--n_threads 16 \
+	--checkpoint 1 \
+	--modality RGB-flo \
+	--train_crop random \
+	--n_val_samples 1 \
+	--test_subset test \
+    --n_epochs 100 \
+    --store_name nvClfRf_jes32r_b32 \

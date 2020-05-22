@@ -66,7 +66,7 @@ if __name__ == '__main__':
         sens = ''
     else:
         sens = '_' + sens[0:3]
-    for class_type in ['all', 'all_but_None', 'binary', 'group', 'gests_only']:
+    for class_type in ['all', 'all_but_None', 'binary']:
 
         if class_type == 'all':
             class_ind_file = 'classIndAll.txt'
@@ -74,10 +74,6 @@ if __name__ == '__main__':
             class_ind_file = 'classIndAllbutNone.txt'
         elif class_type == 'binary':
             class_ind_file = 'classIndBinary.txt'
-        elif class_type == 'group':
-            class_ind_file = 'classIndGroup.txt'
-        elif class_type == 'gests_only':
-            class_ind_file = 'classIndGestsOnly.txt'
 
         label_csv_path = os.path.join(csv_dir_path, class_ind_file)
         train_csv_path = os.path.join(csv_dir_path, 'trainlist'+ class_type + sens + '.txt')
