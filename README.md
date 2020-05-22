@@ -43,6 +43,7 @@ Please install the following requirements.
 ```console
 $ git clone https://github.com/GibranBenitez/IPN-hand
 ```
+* Store all pretrained models in `./report_ipn/`
 
 ### Isolated testing
 * Change the path of the dataset from `./tests/run_offline_ipn_Clf.sh` and run
