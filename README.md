@@ -29,14 +29,13 @@ Please install the following requirements.
 - OpenCV
 
 ### Pretrained models
-* [ResNeXt-101 models isolated] 
-* [ResNeXt-101 models continuous] 
-* [ResNet-50 models continuous] 
-* [HarDNet model] 
-* [Optical Flow model] 
+* [ResNeXt-101 models](https://drive.google.com/open?id=156fE3mO3YdFPY4pfreWYQn5sxQdu7Bmt) 
+* [ResNet-50 models](https://drive.google.com/open?id=1X9uom_f0euHmhAgO8XNJUqUGH98saB7Z) 
+* HarDNet model (soon)
+* [Optical Flow model](https://github.com/sniklaus/pytorch-spynet) 
 
 
-## Running the code
+## Usage
 * Isolated testing (offline_test.py) and training (main.py)
 ```bash
 bash run_offline.sh
