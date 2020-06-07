@@ -1,4 +1,6 @@
 # IPN Hand: A Video Dataset and Benchmark for Real-Time Continuous Hand Gesture Recognition
+## [Project page and download link of the dataset](https://gibranbenitez.github.io/IPN_Hand/)
+
 PyTorch implementation, codes and pretrained models of the paper: 
 
 [__IPN Hand: A Video Dataset and Benchmark for Real-Time Continuous Hand Gesture Recognition__](https://arxiv.org/abs/2005.02134)
@@ -16,8 +18,6 @@ Since IPN hand contains RGB videos only, we analyze the possibility of increasin
 <div align="center" style="width:image width px;">
   <img src="https://img.youtube.com/vi/OH3n5rf2wV8/maxresdefault.jpg" href="https://youtu.be/OH3n5rf2wV8" width="640">
 </div>
-
-## [Project page and download link of the dataset](https://gibranbenitez.github.io/IPN_Hand/)
 
 ## Requirements
 Please install the following requirements.
