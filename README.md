@@ -51,7 +51,7 @@ _1_ | _D0X_ | _Non-gesture_ | _1431_ |	_147 (133)_
 | |   | _All gestures:_	| _4218_	| _140 (94)_
 |  | |  ___Total:___	| ___5649___	| ___142 (105)___
 
-### [_Video examples of all classes (.GIF) here_](https://gibranbenitez.github.io/IPN_Hand/Classes)
+#### [_Video examples of all classes (.GIF) here_](https://gibranbenitez.github.io/IPN_Hand/Classes)
 
 ### Baseline results
 
