@@ -7,7 +7,7 @@ PyTorch implementation, codes and pretrained models of the paper:
 <br>
 [Gibran Benitez-Garcia](https://gibranbenitez.github.io), Jesus Olivares-Mercado, Gabriel Sanchez-Perez, and Keiji Yanai
 <br>
-arXiv 2020
+___Accepted at [ICPR 2020](https://www.icpr2020.it/)___
 
 This paper proposes the [__IPN Hand dataset__](https://gibranbenitez.github.io/IPN_Hand/), a new benchmark video dataset with sufficient size, variation, and real-world elements able to train and evaluate deep neural networks for continuous Hand Gesture Recognition (HGR).
 With our dataset, the performance of three 3D-CNN models is evaluated on the tasks of isolated and continuous real-time HGR.
@@ -60,11 +60,13 @@ $ bash run_online_ipnTest.sh
 If you find useful the IPN Hand dataset for your research, please cite the paper:
 
 ```bibtex
-@article{bega2020IPNhand,
+@inproceedings{bega2020IPNhand,
   title={IPN Hand: A Video Dataset and Benchmark for Real-Time Continuous Hand Gesture Recognition},
   author={Benitez-Garcia, Gibran and Olivares-Mercado, Jesus and Sanchez-Perez, Gabriel and Yanai, Keiji},
-  journal={arXiv preprint arXiv:2005.02134},
-  year={2020}
+  booktitle={25th International Conference on Pattern Recognition, {ICPR 2020}, Milan, Italy, Jan 10--15, 2021},
+  pages={1--8},
+  year={2021},
+  organization={IEEE},
 }
 ```
 ## Acknowledgement
