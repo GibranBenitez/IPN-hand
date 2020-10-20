@@ -19,6 +19,44 @@ Since IPN hand contains RGB videos only, we analyze the possibility of increasin
   <img src="https://img.youtube.com/vi/OH3n5rf2wV8/maxresdefault.jpg" href="https://youtu.be/OH3n5rf2wV8" width="640">
 </div>
 
+### Dataset details
+
+The subjects from the dataset were asked to record gestures using their own PC keeping the defined resolution and frame rate. 
+Thus, __only RGB videos__ were captured, and the distance between the camera and each subject varies.
+All videos were recorded in the resolution of __640x480 at 30 fps__. 
+
+Each subject continuously performed __21 gestures__ with three random breaks in a single video.
+We defined [__13 gestures__](https://gibranbenitez.github.io/IPN_Hand/Classes) to control the pointer and actions focused on the interaction with touchless screens.
+
+Description and statics of each gesture are shown in the next table. 
+Duration is measured in the number of frames (30 frames = 1 s).
+
+id |	Label |  Gesture	| Instances	| Mean duration (std)
+-- | -------- | -------- | ---------- | -------------------
+_1_ | _D0X_ | _Non-gesture_ | _1431_ |	_147 (133)_
+2	| B0A | Pointing with one finger	| 1010	| 219 (67)
+3  | B0B |	Pointing with two fingers	| 1007	| 224 (69)
+4	| G01 | Click with one finger	| 200	| 56 (29)
+5	| G02 | Click with two fingers | 200	| 60 (43)
+6	| G03 | Throw up	| 200	| 62 (25)
+7	| G04 | Throw down	| 201	| 65 (28)
+8	| G05 | Throw left	| 200	| 66 (27)
+9	| G06 | Throw right	| 200	| 64 (28)
+10	| G07 | Open twice	| 200	| 76 (31)
+11	| G08 | Double click with one finger	| 200	| 68 (28)
+12	| G09 | Double click with two fingers	| 200	| 70 (30)
+13	| G10 | Zoom in	| 200	| 65 (29)
+14	| G11 | Zoom out	| 200	| 64 (28)
+| |  | _All non-gestures:_	| _1431_	| _147 (133)_
+| |   | _All gestures:_	| _4218_	| _140 (94)_
+|  | |  ___Total:___	| ___5649___	| ___142 (105)___
+
+### [_Video examples of all classes (.GIF) here_](https://gibranbenitez.github.io/IPN_Hand/Classes)
+
+### Baseline results
+
+[___Baseline results___](https://gibranbenitez.github.io/IPN_Hand/Results) for isolated and continuous hand gesture recognition of the IPN Hand dataset can be found [__here__](https://gibranbenitez.github.io/IPN_Hand/Results).
+
 ## Requirements
 Please install the following requirements.
 
