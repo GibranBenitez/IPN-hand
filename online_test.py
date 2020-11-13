@@ -179,7 +179,7 @@ elif opt.dataset == 'nv':
         elif opt.modality_det == 'Depth':
             test_paths.append(os.path.join(opt.video_path, x.replace('path:', ''), 'sk_depth_all'))
 elif opt.dataset == 'ipn':
-    file_set = os.path.join(opt.video_path, 'ValList.txt')
+    file_set = os.path.join(opt.video_path, 'Video_TestList.txt')
     test_paths = []
     buf = 0
     with open(file_set,'rb') as f:
@@ -236,7 +236,7 @@ for idx, path in enumerate(test_paths[buf:]):
     elif opt.dataset == 'nv':
         opt.whole_path = path.split(os.sep, 7)[-1]
     elif opt.dataset == 'ipn':
-        opt.whole_path = path.split(os.sep, 7)[-1]
+        opt.whole_path = os.path.join('frames', path.split(os.sep)[-1])  
     elif opt.dataset == 'AHG':
         opt.whole_path = path
     elif opt.dataset == 'denso':
