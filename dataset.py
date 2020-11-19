@@ -2,17 +2,12 @@ from datasets.jester import Jester
 from datasets.egogesture import EgoGesture
 from datasets.nv import NV
 from datasets.ipn import IPN
-from datasets.denso import Denso
-from datasets.AHG import AHG
-from datasets.egogesture_online import EgoGestureOnline
 from datasets.nv_online import NVOnline
 from datasets.ipn_online import IPNOnline
-from datasets.AHG_online import AHGOnline
-from datasets.denso_online import densOnline
 
 def get_training_set(opt, spatial_transform, temporal_transform,
                      target_transform):
-    assert opt.dataset in ['jester', 'egogesture', 'nv', 'denso', 'AHG', 'ipn']
+    assert opt.dataset in ['jester', 'nv', 'ipn']
 
     if opt.train_validate:
         subset = ['training', 'validation']
@@ -85,7 +80,7 @@ def get_training_set(opt, spatial_transform, temporal_transform,
 
 def get_validation_set(opt, spatial_transform, temporal_transform,
                        target_transform):
-    assert opt.dataset in ['jester', 'egogesture', 'nv', 'denso', 'AHG', 'ipn']
+    assert opt.dataset in ['jester', 'nv', 'ipn']
 
     if opt.dataset == 'jester':
         validation_data = Jester(
@@ -156,7 +151,7 @@ def get_validation_set(opt, spatial_transform, temporal_transform,
 
 
 def get_test_set(opt, spatial_transform, temporal_transform, target_transform):
-    assert opt.dataset in ['jester', 'egogesture', 'nv', 'denso', 'AHG', 'ipn']
+    assert opt.dataset in ['jester', 'nv', 'ipn']
     assert opt.test_subset in ['val', 'test']
 
     if opt.test_subset == 'val':
@@ -232,7 +227,7 @@ def get_test_set(opt, spatial_transform, temporal_transform, target_transform):
     return test_data
 
 def get_online_data(opt, spatial_transform, temporal_transform, target_transform):
-    assert opt.dataset in [ 'egogesture', 'nv', 'denso', 'AHG', 'ipn']
+    assert opt.dataset in [ 'nv', 'ipn']
     whole_path = opt.whole_path
     if opt.dataset == 'egogesture':
         online_data = EgoGestureOnline(
