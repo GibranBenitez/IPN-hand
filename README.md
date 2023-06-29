@@ -107,6 +107,11 @@ If you find useful the IPN Hand dataset for your research, please cite the paper
   organization={IEEE},
 }
 ```
+
+## License
+The benchmark code shared in this repository is licensed under the MIT license. However, the data and annotations of the IPN Hand dataset are licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode).
+
+
 ## Acknowledgement
 This project is inspired by many previous works, including:
 * [Real-time hand gesture detection and classification using convolutional neural networks](https://arxiv.org/abs/1901.10323), Kopuklu et al, _FG 2019_ [[code](https://github.com/ahmetgunduz/Real-time-GesRec)]
