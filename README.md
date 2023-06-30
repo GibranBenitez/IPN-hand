@@ -16,7 +16,7 @@ Since IPN hand contains RGB videos only, we analyze the possibility of increasin
 ### Introduction video (supplementary material):
 
 <div align="center" style="width:image width px;">
-  <img src="https://img.youtube.com/vi/OH3n5rf2wV8/maxresdefault.jpg" href="https://youtu.be/OH3n5rf2wV8" width="640">
+  <a href="https://youtu.be/OH3n5rf2wV8" ><img src="https://img.youtube.com/vi/OH3n5rf2wV8/maxresdefault.jpg"  width="640"></a>
 </div>
 
 ### Dataset details
