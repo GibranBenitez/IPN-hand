@@ -9,11 +9,18 @@ PyTorch implementation, codes and pretrained models of the paper:
 <br>
 ___Accepted at [ICPR 2020](https://www.icpr2020.it/)___
 
+## News
+- **[Oct 2026]** We released the hand landmarks and refined temporal annotations of [__IPN HandS__](https://doi.org/10.3390/app15116321). Details and download link: [README_HandS.md](README_HandS.md).
+
+### ToDo
+- [ ] Release the segmentation, optical flow and depth modalities from our follow-up publications.
+- [ ] Update the project page.
+
+### Introduction video (supplementary material):
+
 This paper proposes the [__IPN Hand dataset__](https://gibranbenitez.github.io/IPN_Hand/), a new benchmark video dataset with sufficient size, variation, and real-world elements able to train and evaluate deep neural networks for continuous Hand Gesture Recognition (HGR).
 With our dataset, the performance of three 3D-CNN models is evaluated on the tasks of isolated and continuous real-time HGR.
 Since IPN hand contains RGB videos only, we analyze the possibility of increasing the recognition accuracy by adding multiple modalities derived from RGB frames, i.e., optical flow and semantic segmentation, while keeping the real-time performance. 
-
-### Introduction video (supplementary material):
 
 <div align="center" style="width:image width px;">
   <a href="https://youtu.be/OH3n5rf2wV8" ><img src="https://img.youtube.com/vi/OH3n5rf2wV8/maxresdefault.jpg"  width="640"></a>
