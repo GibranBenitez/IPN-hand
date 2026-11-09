@@ -7,9 +7,10 @@ PyTorch implementation, codes and pretrained models of the paper:
 <br>
 [Gibran Benitez-Garcia](https://gibranbenitez.github.io), Jesus Olivares-Mercado, Gabriel Sanchez-Perez, and Keiji Yanai
 <br>
-___Accepted at [ICPR 2020](https://www.icpr2020.it/)___
+___[ICPR 2020](https://ieeexplore.ieee.org/document/9412317/), Milan, Italy___
 
 ## News
+- **[Nov 2026]** [__VERA-Hand__](https://gibranbenitez.github.io/VERA_Hand/), a verified benchmark for 2D hand pose estimation built on the IPN Hand test videos, was accepted at [WACV 2027](https://wacv.thecvf.com/Conferences/2027). [[Project page](https://gibranbenitez.github.io/VERA_Hand/)] [[arXiv](https://arxiv.org/abs/2610.32517)] [[Code](https://github.com/GibranBenitez/VERA-Hand)]
 - **[Oct 2026]** We released the hand landmarks and refined temporal annotations of [__IPN HandS__](https://doi.org/10.3390/app15116321). Details and download link: [README_HandS.md](README_HandS.md).
 
 ### ToDo
@@ -109,7 +110,7 @@ If you find useful the IPN Hand dataset for your research, please cite the paper
   title={IPN Hand: A Video Dataset and Benchmark for Real-Time Continuous Hand Gesture Recognition},
   author={Benitez-Garcia, Gibran and Olivares-Mercado, Jesus and Sanchez-Perez, Gabriel and Yanai, Keiji},
   booktitle={25th International Conference on Pattern Recognition, {ICPR 2020}, Milan, Italy, Jan 10--15, 2021},
-  pages={1--8},
+  pages={4340--4347},
   year={2021},
   organization={IEEE},
 }
